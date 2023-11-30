@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Insure Landing Page</title>
+  </head>
+  <body class="text-slate-800 font-body">
+    <header
+      class="container max-w-6xl mx-auto flex items-center justify-between py-6 px-5 sm:px-0"
+    >
+      <img src="images/logo.svg" alt="logo" />
+      <div class="hidden sm:flex items-center uppercase gap-3">
+        <nav>
+          <ul
+            class="flex items-center justify-between text-gray-400 text-sm gap-3"
+          >
+            <li class="hover:text-slate-900"><a href="#">How we work</a></li>
+            <li class="hover:text-slate-900"><a href="#">Blog</a></li>
+            <li class="hover:text-slate-900"><a href="#">Account</a></li>
+          </ul>
+        </nav>
+        <button class="btn btn-primary">view plans</button>
+      </div>
+      <div
+        class="burger cursor-pointer sm:hidden"
+      >
+        <div class="w-6 h-[2px] bg-primary mb-2"></div>
+        <div class="w-6 h-[2px] bg-primary mb-2"></div>
+        <div class="w-6 h-[2px] bg-primary"></div>
+      </div>
+    </header>
+
+    <main class="relative">
+      <nav
+        class="mobile-nav p-5 w-full absolute top-0 bg-primary text-secondary text-center uppercase h-screen transition-transform duration-300"
+      >
+        <ul>
+          <li class="py-4">
+            <a href="#">How we work</a>
+          </li>
+          <li class="py-4">
+            <a href="#">Blog</a>
+          </li>
+          <li class="py-4">
+            <a href="#">Account</a>
+          </li>
+        </ul>
+        <button class="btn btn-secondary text-lg block w-full mt-4">
+          view plan
+        </button>
+      </nav>
+
+      <section id="hero" class="bg-primary text-white">
+        <div
+          class="container max-w-6xl mx-auto flex flex-wrap sm:flex-nowrap gap-20"
+        >
+          <div
+            class="grow sm:w-6/12 order-1 sm:order-none text-center sm:text-left"
+          >
+            <div class="hidden sm:block w-36 h-[1px] bg-white mt-32"></div>
+            <h1 class="text-5xl font-bold font-heading mt-12">
+              Humanizing your <br />
+              insurance.
+            </h1>
+            <p class="mt-4">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis
+              architecto porro dolore aspernatur voluptatum veritatis tempora
+              odit, obcaecati ipsam quasi nihil eius nisi delectus iure alias ad
+              explicabo suscipit cumque.
+            </p>
+            <button class="btn btn-secondary mt-9 mb-8 sm:mb-0">
+              view plans
+            </button>
+          </div>
+          <div class="grow">
+            <img
+              class="min-w-full sm:translate-y-20"
+              src="images/image-intro-desktop.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="mt-20 sm:mt-56 text-center px-5 sm:px-0">
+        <div class="container max-w-6xl mx-auto">
+          <div class="w-36 h-[1px] bg-gray-700 mx-auto"></div>
+          <h2 class="sm:text-4xl text-3xl font-bold font-heading mt-12">
+            We're Different
+          </h2>
+          <div class="flex mt-6 flex-wrap sm:flex-nowrap">
+            <article class="px-8 py-12 sm:py-16">
+              <img
+                class="mx-auto"
+                src="images/icon-snappy-process.svg"
+                alt="Snappy"
+              />
+              <h3 class="font-bold font-heading text-2xl mt-6">
+                Snappy Process
+              </h3>
+              <p class="mt-6 text-gray-600">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis fugit nisi similique quod porro eaque!
+              </p>
+            </article>
+            <article class="px-8 py-12 sm:py-16">
+              <img
+                class="mx-auto"
+                src="images/icon-affordable-prices.svg"
+                alt="Snappy"
+              />
+              <h3 class="font-bold font-heading text-2xl mt-6">
+                Affordable Prices
+              </h3>
+              <p class="mt-6 text-gray-600">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis fugit nisi similique quod porro eaque!
+              </p>
+            </article>
+            <article class="px-8 py-12 sm:py-16">
+              <img
+                class="mx-auto"
+                src="images/icon-people-first.svg"
+                alt="Snappy"
+              />
+              <h3 class="font-bold font-heading text-2xl mt-6">
+                Snappy Process
+              </h3>
+              <p class="mt-6 text-gray-600">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis fugit nisi similique quod porro eaque!
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="how-we-work"
+        class="mt-14 text-white px-5 sm:px-0 py-40 sm:py-0"
+      >
+        <div
+          class="container bg-primary max-w-6xl mx-auto flex flex-wrap sm:flex-nowrap py-9 gap-6 sm:justify-between"
+        >
+          <div class="flex items-center sm:w-6/12 sm:py-12 px-16">
+            <h4
+              class="text-3xl text-center font-heading font-bold leading-normal"
+            >
+              Find out more <br />
+              about how we work.
+            </h4>
+          </div>
+          <div class="sm:py-12 sm:px-16 px-24 items-center">
+            <button class="btn btn-secondary mt-4 sm:mt-9">How we work</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-secondary uppercase">
+      <div class="container mx-auto max-w-6xl">
+        <div
+          class="flex flex-wrap justify-center sm:justify-between items-center pt-20 pb-8 border-b border-solid border-slate-400"
+        >
+          <img src="images/logo.svg" alt="logo" />
+          <div
+            class="space-x-2 min-w-full text-2xl flex justify-center mt-6 sm:mt-0 sm:min-w-fit text-gray-500"
+          >
+            <i class="fa-brands fa-square-facebook hover:text-slate-900"></i>
+            <i class="fa-brands fa-twitter hover:text-slate-900"></i>
+            <i class="fa-brands fa-pinterest hover:text-slate-900"></i>
+            <i class="fa-brands fa-instagram hover:text-slate-900"></i>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-wrap text-center justify-between items-center py-6 gap-2 text-lg sm:text-xs font-semibold tracking-wider"
+        >
+          <div class="grow basis-full sm:basis-auto">
+            <h5 class="mb-4 text-gray-400">Our company</h5>
+            <ul class="space-y-2">
+              <li>How we work</li>
+              <li>Why Insure?</li>
+              <li>View plans</li>
+              <li>Reviews</li>
+            </ul>
+          </div>
+
+          <div class="grow basis-full sm:basis-auto">
+            <h5 class="mb-4 text-gray-400">Our company</h5>
+            <ul class="space-y-2">
+              <li>How we work</li>
+              <li>Why Insure?</li>
+              <li>View plans</li>
+              <li>Reviews</li>
+            </ul>
+          </div>
+
+          <div class="grow basis-full sm:basis-auto">
+            <h5 class="mb-4 text-gray-400">Our company</h5>
+            <ul class="space-y-2">
+              <li>How we work</li>
+              <li>Why Insure?</li>
+              <li>View plans</li>
+              <li>Reviews</li>
+            </ul>
+          </div>
+
+          <div class="grow basis-full sm:basis-auto">
+            <h5 class="mb-4 text-gray-400">Our company</h5>
+            <ul class="space-y-2">
+              <li>How we work</li>
+              <li>Why Insure?</li>
+              <li>View plans</li>
+              <li>Reviews</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
